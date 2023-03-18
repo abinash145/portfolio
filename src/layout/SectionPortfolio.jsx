@@ -15,7 +15,7 @@ export default function SectionPortfolio() {
     {
       title: 'Gurkha Finance',
       description:
-        'Makkuse is an online website for most delectavke Gundpak, Pustakari, etc made from the freshest khuwa that arrives from the hish altitudes of Kavre, Nepal.',
+        'Gurkha is an online website for most  delectavke Gundpak, Pustakari, etc made from the freshest khuwa that arrives from the hish altitudes of Kavre, Nepal.',
       tech: ['React', 'SCSS'],
       img: gurkhasFinance,
       link: 'https://www.gurkhasfinance.com.np/',
