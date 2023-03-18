@@ -1,6 +1,6 @@
 import React from 'react'
 import makkuse from '../assets/images/makkusé.png'
-import gurkhasFinance from '../assets/images/gurkhasFinance.png'
+import gurkhasFinance from '../assets/images/gurkhasFInance.png'
 import { Github } from '../assets/icon'
 export default function SectionPortfolio() {
   const portfolioData = [
