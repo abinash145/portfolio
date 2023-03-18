@@ -9,10 +9,10 @@ import css from '../assets/images/css.svg'
 export default function SectionHero() {
   const techStackImage = [html, css, sass, js, react, tailwind]
   return (
-    <section className="mt-20 min-h-screen flex items-center">
+    <section id="home" className="mt-20 min-h-screen flex items-center">
       <div className="container">
-        <div className="content max-w-[752px] m-auto">
-          <div className="flex justify-center smd:flex-col-reverse smd:items-center">
+        <div className="content max-w-[950px] m-auto px-8">
+          <div className="flex justify-between smd:flex-col-reverse smd:items-center">
             <div className="max-w-[27rem] smd:text-center">
               <h1 className="text-5xl font-bold my-4 ">
                 Front-End React Developer
@@ -22,12 +22,20 @@ export default function SectionHero() {
                 based in Lalitpur, Kathmandu.
               </p>
               <div className="flex items-center gap-2 smd:justify-center">
-                <div className="text-blue-200">
-                  <div className="text-blue-200">{linkedin}</div>
-                </div>
-                <div className="">
+                <a
+                  href="https://www.linkedin.com/in/abinash-rai-013b05213/"
+                  target="_blank"
+                  className="text-blue-200"
+                >
+                  {linkedin}
+                </a>
+                <a
+                  href="https://github.com/abinash145"
+                  target="_blank"
+                  className=""
+                >
                   <Github />
-                </div>
+                </a>
               </div>
             </div>
             <div
@@ -38,9 +46,9 @@ export default function SectionHero() {
             </div>
           </div>
           <div className="flex items-center my-20 smd:flex-col ">
-            <h2 className="pr-4 border-r-2 mr-8 smd:border-r-0 smd:border-b-2 smd:pr-[initial] smd:pb-2  smd:mb-4">
+            <h4 className="pr-4 border-r-2 mr-8 smd:border-r-0 smd:border-b-2 smd:pr-[initial] smd:pb-2  smd:mb-4 text-black">
               Tech Stack
-            </h2>
+            </h4>
             <div>
               <ul className="flex gap-5 flex-wrap justify-center">
                 {techStackImage.map((img) => (

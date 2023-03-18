@@ -10,6 +10,7 @@ export default function SectionPortfolio() {
         'Makkuse is an online website for most delectavke Gundpak, Pustakari, etc made from the freshest khuwa that arrives from the hish altitudes of Kavre, Nepal.',
       tech: ['React', 'SCSS'],
       img: makkuse,
+      link: 'https://www.makkuse.com/',
     },
     {
       title: 'Gurkha Finance',
@@ -17,10 +18,11 @@ export default function SectionPortfolio() {
         'Makkuse is an online website for most delectavke Gundpak, Pustakari, etc made from the freshest khuwa that arrives from the hish altitudes of Kavre, Nepal.',
       tech: ['React', 'SCSS'],
       img: gurkhasFinance,
+      link: 'https://www.gurkhasfinance.com.np/',
     },
   ]
   return (
-    <section className="">
+    <section id="project" className="">
       <div className="container">
         <h4 className="mb-2 ">Portfolio</h4>
         <h3 className="mb-[60px] ">Some of the project I have done</h3>
@@ -30,13 +32,17 @@ export default function SectionPortfolio() {
               index % 2 != 0 && 'flex-row-reverse'
             }`}
           >
-            <div className="w-[530px] max-w-full h-[360px] overflow-hidden  rounded-xl ">
+            <a
+              href={item.link}
+              target="_blank"
+              className="w-[530px] max-w-full h-[360px] overflow-hidden  rounded-xl "
+            >
               <img
                 src={item.img}
                 alt=""
                 className="transition-[transform] hover:translate-y-[-77%] translate-y-0 duration-[10000ms]"
               />
-            </div>
+            </a>
             <div className="flex justify-center grow ">
               <div className="w-[300px] pt-4">
                 <h4 className="mb-2 text-center text-[#2d2e32]">
@@ -55,10 +61,10 @@ export default function SectionPortfolio() {
                     <p>Code</p>
                     <Github />
                   </div>
-                  <div className="flex gap-1">
+                  <a href={item.link} target="_blank" className="flex gap-1">
                     <p>Live Demo</p>
                     <Github />
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>

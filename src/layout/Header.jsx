@@ -1,15 +1,15 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+
 import hamburger from '../assets/images/hamburger.svg'
 import cross from '../assets/images/cross.svg'
 
 export default function Header() {
   const [navShow, setNavShow] = useState(false)
   const headerLink = [
-    { title: 'Home', link: '/' },
-    { title: 'About', link: '/' },
-    { title: 'Projects', link: '/' },
-    { title: 'Contact', link: '/' },
+    { title: 'Home', link: '#home' },
+    { title: 'About', link: '#about' },
+    { title: 'Projects', link: '#project' },
+    { title: 'Contact', link: '#contact' },
   ]
   return (
     <>
@@ -19,9 +19,9 @@ export default function Header() {
         <ul className="flex gap-4 [&>li]:font-medium [&>li>a]: bg-white md:hidden">
           {headerLink.map((item) => (
             <li className="bg-white">
-              <Link to={item.link} className="hover:text-blue-200 bg-white">
+              <a href={item.link} className="hover:text-blue-200 bg-white">
                 {item.title}
-              </Link>
+              </a>
             </li>
           ))}
         </ul>
@@ -45,9 +45,9 @@ export default function Header() {
         <ul className="  [&>li]:font-medium [&>li>a]:text-lg bg-white ">
           {headerLink.map((item) => (
             <li className="bg-white mb-4">
-              <Link to={item.link} className="hover:text-blue-200 bg-white">
+              <a href={item.link} className="hover:text-blue-200 bg-white">
                 {item.title}
-              </Link>
+              </a>
             </li>
           ))}
         </ul>

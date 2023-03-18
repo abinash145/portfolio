@@ -5,7 +5,7 @@ import laptopBoy from '../assets/images/laptopAvatar.png'
 
 export default function SectionAbout() {
   return (
-    <section className="bg-white">
+    <section id="about" className="bg-white">
       <div className="container bg-white ">
         <div className="flex lg:flex-col lg:items-center lg:gap-8">
           <div className="w-[50%] relative pr-14 lg:pr-[initial] lg:grow lg:w-[initial] bg-white ">
