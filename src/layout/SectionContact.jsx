@@ -2,7 +2,7 @@ import React from 'react'
 import { Mail, LocationMap, Contact } from '../assets/icon'
 export default function SectionContact() {
   return (
-    <section id="contact" className="bg-white">
+    <section id="contact" className="">
       <div className="container">
         <h4 className="mb-2 ">CONTACT</h4>
         <h3 className="mb-[60px] ">

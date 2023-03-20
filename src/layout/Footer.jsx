@@ -2,7 +2,7 @@ import React from 'react'
 import { Github, linkedin, Linkedin } from '../assets/icon'
 export default function Footer() {
   return (
-    <footer className="py-[50px]">
+    <footer className="py-[50px] bg-[#2d2e32]">
       <div className="container">
         <div className="content flex items-center gap-4 justify-center">
           <h4 className="text-left">You can Check other data from</h4>
