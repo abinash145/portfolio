@@ -17,7 +17,7 @@ export default function Header() {
       <nav className="flex items-center justify-between py-[25px] pl-[50px] pr-[40px] bg-white shadow-sm fixed w-full top-0 left-0 z-10">
         <h3 className="">Abinash Rai</h3>
 
-        <ul className="flex gap-4 [&>li]:font-medium [&>li>a]: bg-white md:hidden">
+        <ul className="flex gap-6 [&>li]:font-medium [&>li>a]: bg-white md:hidden">
           {headerLink.map((item) => (
             <li className="bg-white">
               <a href={item.link} className="hover:text-blue-200 bg-white">

@@ -1,40 +1,45 @@
 import React from 'react'
-import { Linkedin, Github, linkedin } from '../assets/icon'
+import { Linkedin, Github } from '../assets/icon'
 import html from '../assets/images/html.svg'
 import sass from '../assets/images/sass.svg'
 import react from '../assets/images/react.svg'
 import tailwind from '../assets/images/tailwind.svg'
 import js from '../assets/images/js.svg'
 import css from '../assets/images/css.svg'
+import linkedin from '../assets/images/linkedin.svg'
+
 export default function SectionHero() {
   const techStackImage = [html, css, sass, js, react, tailwind]
   return (
     <section id="home" className="mt-20 min-h-screen flex items-center">
       <div className="container">
-        <div className="content max-w-[950px] m-auto px-8">
+        <div className="content max-w-[950px] m-auto px-8 ">
           <div className="flex justify-between smd:flex-col-reverse smd:items-center">
             <div className="max-w-[27rem] smd:text-center">
               <h1 className="text-5xl font-bold my-4 ">
                 Front-End React Developer
               </h1>
-              <p className="mb-4">
+              <p className="mb-8">
                 Hi, I'm Abinash Rai. A passionate Front-end React Developer
                 based in Lalitpur, Kathmandu.
               </p>
-              <div className="flex items-center gap-2 smd:justify-center">
+              <div className="flex items-center gap-4 smd:justify-center mb-4">
+                <button className="bg-[#5e59e5] px-8 py-3 rounded-md border hover:border-[#5e59e5] text-white font-bold">
+                  Download CV
+                </button>
                 <a
                   href="https://www.linkedin.com/in/abinash-rai-013b05213/"
                   target="_blank"
-                  className="text-blue-200"
+                  className=""
                 >
-                  {linkedin}
+                  <Linkedin propStyle="fill-current hover:fill-[#0967c5]" />
                 </a>
                 <a
                   href="https://github.com/abinash145"
                   target="_blank"
                   className=""
                 >
-                  <Github />
+                  <Github propStyle="fill-current hover:fill-black " />
                 </a>
               </div>
             </div>

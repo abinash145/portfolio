@@ -56,12 +56,16 @@ export default function SectionPortfolio() {
                     </span>
                   ))}
                 </div>
-                <div className="flex gap-6 justify-center">
-                  <div className="flex gap-1">
+                <div className="flex gap-6 justify-center item">
+                  <div className="flex gap-1 items-end">
                     <p>Code</p>
                     <Github />
                   </div>
-                  <a href={item.link} target="_blank" className="flex gap-1">
+                  <a
+                    href={item.link}
+                    target="_blank"
+                    className="flex gap-1 items-end"
+                  >
                     <p>Live Demo</p>
                     <Github />
                   </a>
