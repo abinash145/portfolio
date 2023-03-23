@@ -6,7 +6,7 @@ import react from '../assets/images/react.svg'
 import tailwind from '../assets/images/tailwind.svg'
 import js from '../assets/images/js.svg'
 import css from '../assets/images/css.svg'
-import CV from '../assets/PDF/cv.pdf'
+import CV from '../assets/pdf/cv.pdf'
 import linkedin from '../assets/images/linkedin.svg'
 export default function SectionHero() {
   const techStackImage = [html, css, sass, js, react, tailwind]
