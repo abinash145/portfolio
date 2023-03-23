@@ -1,5 +1,6 @@
 import React from 'react'
 import sisir from '../assets/images/sisir.jpg'
+import jeevan from '../assets/images/jeevan.jpg'
 import Slider from 'react-slick'
 import { LeftArrow, RightArrow } from '../assets/icon'
 export default function SectionTestomonial() {
@@ -12,23 +13,23 @@ export default function SectionTestomonial() {
         '  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quae ipsam aperiam est ratione deserunt accusamus dolorem nobis omnis repellat doloremque unde sapiente nesciunt porro fugiat, perferendis odit explicabo amet!',
     },
     {
-      name: 'Sisir Joshi',
-      img: sisir,
-      post: 'Senior Back-End Developer',
+      name: 'Jeevan Karki',
+      img: jeevan,
+      post: 'Front End Developer',
       detail:
         '  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quae ipsam aperiam est ratione deserunt accusamus dolorem nobis omnis repellat doloremque unde sapiente nesciunt porro fugiat, perferendis odit explicabo amet!',
     },
     {
-      name: 'Sisir Joshi',
+      name: 'Manoj Rai',
       img: sisir,
-      post: 'Senior Back-End Developer',
+      post: 'Senior UI/UX Developer',
       detail:
         '  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quae ipsam aperiam est ratione deserunt accusamus dolorem nobis omnis repellat doloremque unde sapiente nesciunt porro fugiat, perferendis odit explicabo amet!',
     },
     {
-      name: 'Sisir Joshi',
+      name: 'Bijen Shrestha',
       img: sisir,
-      post: 'Senior Back-End Developer',
+      post: 'Front End Developer',
       detail:
         '  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quae ipsam aperiam est ratione deserunt accusamus dolorem nobis omnis repellat doloremque unde sapiente nesciunt porro fugiat, perferendis odit explicabo amet!',
     },

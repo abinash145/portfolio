@@ -6,8 +6,8 @@ import react from '../assets/images/react.svg'
 import tailwind from '../assets/images/tailwind.svg'
 import js from '../assets/images/js.svg'
 import css from '../assets/images/css.svg'
+import CV from '../assets/PDF/cv.pdf'
 import linkedin from '../assets/images/linkedin.svg'
-
 export default function SectionHero() {
   const techStackImage = [html, css, sass, js, react, tailwind]
   return (
@@ -25,7 +25,9 @@ export default function SectionHero() {
               </p>
               <div className="flex items-center gap-4 smd:justify-center mb-4">
                 <button className="bg-[#5e59e5] px-8 py-3 rounded-md border hover:border-[#5e59e5] text-white font-bold">
-                  Download CV
+                  <a href={CV} download className="text-white">
+                    Download CV
+                  </a>
                 </button>
                 <a
                   href="https://www.linkedin.com/in/abinash-rai-013b05213/"

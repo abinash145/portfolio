@@ -22,11 +22,11 @@ export default function SectionAbout() {
           <div className="w-[50%] lg:grow lg:w-[initial] bg-white ">
             <h4 className="mb-2">ABOUT ME</h4>
             <h3 className="mb-4">
-              A dedicated Front-end Developer based in Kathmandu, Nepal
+              A dedicated Front-end Developer based in Lalitpur, Nepal
             </h3>
             <p>
-              As a Junior Front-End Developer, I possess an impressive arsenal
-              of skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I
+              As a Front-End Developer, I possess an impressive arsenal of
+              skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I
               excel in designing and maintaining responsive websites that offer
               a smooth user experience. My expertise lies in crafting dynamic,
               engaging interfaces through writing clean and optimized code and
